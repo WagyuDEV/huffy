@@ -17,4 +17,8 @@ int main(int argc, char** argv){
 	for(int i = 0; i < chars.used; i+=1){
 		// printf("%c | %d\n", );
 	}
+
+	fclose(input);
+
+	free(chars.data);
 }
